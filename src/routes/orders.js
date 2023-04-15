@@ -73,6 +73,7 @@ router.get('/orders/deliveryMan/aviable', async (req, res) => {
 
 //getting order deliveryMan data
 
+
 router.post('/orders/deliveryMan/:id', async (req, res) => {
 
     const deliveryMan = req.body.deliveryMan
@@ -108,6 +109,7 @@ router.post('/orders/deliveryMan/:id', async (req, res) => {
 
 
 })
+
 
 //Creating a new order
 router.post('/orders/create', async (req, res) => {
